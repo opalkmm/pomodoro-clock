@@ -3,7 +3,7 @@
 A clean and minimalistic pomodoro clock to avoid distractions while working or studying.
 You can adjust the work session and break session. The default time is 25-minute work session, and 5-minute break. 
 My intention is to track my work session while keeping myself motivated, and I hope others can make use of it too.
-The design inspiration comes from sticky notes, as the clock design can be seen as 'intimidating' to some people. 
+The design inspiration comes from sticky notes(using Flexbox), as the clock design can be seen as 'intimidating' to some people. 
 
 My goal for this project is to challenge myself to build an app without any framework that holds state like React.
 
