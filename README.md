@@ -1,4 +1,4 @@
-# Study Buddy (Pomodoro Clock)
+# Pomodoro Clock ('Study Buddy')
 
 A clean and minimalistic pomodoro clock to avoid distractions while working or studying.
 You can adjust the work session and break session. The default time is 25-minute work session, and 5-minute break. 
