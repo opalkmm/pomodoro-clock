@@ -7,7 +7,7 @@ The design inspiration comes from sticky notes(using Flexbox), as the clock desi
 
 My goal for this project is to challenge myself to build an app without any framework that holds state like React.
 
-This pomodoro clock is built with:
+**This pomodoro clock is built with:**
 * Javascript
 * jQuery
 * HTML
@@ -18,3 +18,7 @@ full code can be seen here and [Codepen](https://codepen.io/opalkm/pen/ExgeGav)
 a snapshot  of how this clock works
 
 ![demo](https://github.com/opalkmm/pomodoro-clock/blob/main/pomodoro-clock.gif)
+
+**future plan**
+* ambient sounds to choose from ex. cafe, etc.
+
