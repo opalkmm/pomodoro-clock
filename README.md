@@ -15,4 +15,6 @@ This pomodoro clock is built with:
 * Bootstrap library
 
 full code can be seen here and [Codepen](https://codepen.io/opalkm/pen/ExgeGav)
-a ![snapshot](https://github.com/opalkmm/pomodoro-clock/blob/main/pomodoro-clock.gif) of how this clock works
+a snapshot  of how this clock works
+
+![demo](https://github.com/opalkmm/pomodoro-clock/blob/main/pomodoro-clock.gif)
