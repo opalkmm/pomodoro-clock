@@ -1,0 +1,70 @@
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+
+.float-child {
+  padding: 30px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.timeNum{
+  font-size: 100px;
+  text-shadow: 1px 1px gray;
+  color: white;
+}
+
+
+#wrapper {
+  max-width: 50%;
+  position: relative;
+  background: #ddd;
+  border-radius: 4px;
+  padding: 2em 1.5em;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1.5;
+  border: none;
+  margin: 60px auto;
+}
+
+
+#wrapper::before,
+#wrapper::after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  transform: rotate(-3deg);
+}
+#wrapper::after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+#timer-label{
+  
+  color: black;
+  text-shadow: none;
+}
+
+#session-increment,
+#break-increment {
+  color: orange;
+}
+
+#session-decrement,
+#break-decrement {
+  color: lightgray;
+}
+
