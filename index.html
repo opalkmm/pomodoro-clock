@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Pomorodo Clock</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+
+        <div class="float-child"><i class="fa fa-angle-up fa-1x" id="break-increment"></i> Break Length <i class="fa fa-angle-down fa-1x" id="break-decrement"></i>
+          <div id="break-label"></div>
+        </div>
+
+      </div>
+      <div class="col-md-6">
+        <div class="float-child"><i class="fa fa-angle-up fa-1x" id="session-increment"></i> Session Length <i class="fa fa-angle-down fa-1x" id="session-decrement"></i>
+          <div id="session-label"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div id="wrapper" class="card text-light mb-5">
+        <h4 id="timer-label" class="card-title text-center" data-label="session"></h4>
+        <div class="d-flex flex-wrap justify-content-center mt-2">
+          <p id="worked" class="timeNum"></p>
+        </div>
+
+        <div class="btn-group">
+          <button id="myButton" type="button" value="start" class="btn btn-success" data-toggle="button" aria-pressed="false">
+            start
+          </button>
+          <button id="reset" type="button" value="reset" class="btn btn-danger" data-toggle="button" aria-pressed="false" autocomplete="off">
+            reset
+          </button>
+        </div>
+      </div>
+    </div>
+
+<audio src="https://www.soundjay.com/clock/sounds/alarm-clock-01.mp3" id="beep" ontimeupdate="myFunction(this)">
+  Your browser does not support the audio tag.
+</audio>
+   
+</body>
+
+</html>
